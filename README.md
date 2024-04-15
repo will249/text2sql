@@ -9,7 +9,7 @@ A LangChain based corrective RAG graph.
 
 Features:
 
-- Cohere commandR used throughout due to low cost and decent performance
+- Cohere commandR used for all LLM nodes due to its speed, low cost and decent performance (notebook experiments with commandR, gemma 2b, and GPT4)
 - Embeddings stored in ChromaDB
 - Grading of document relevance and automated query rewrite to be more applicable to vector similarity search
 - LLM evals and automated re-generation
