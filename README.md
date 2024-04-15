@@ -17,9 +17,9 @@ Features:
 
 <img src="./images/graph-flow.png" width="100%" height="100%" />
 
-### Text2SQL Lambda Service
+### Text2SQL Lambda Service:
 
-An API Gateway + Lambda based REST service that can connect to any front end application and return valid SQL queries in response to a user question.
+Uses [aws-langchain-template](https://github.com/langchain-ai/langchain-aws-template/tree/main), an API Gateway + Lambda based REST service that can connect to any front end application and return valid SQL queries in response to a user question.
 <img src="./images/service-design.svg" width="100%" height="100%" />
 
 ## Next steps:
